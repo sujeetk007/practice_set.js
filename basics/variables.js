@@ -4,6 +4,8 @@ var accountpassword = "12345"
 accountCity = "Patna"
 
 
-accountEmail = "jeet02@gmail.com"
-accountpassword = "224414"
-accountCity = "Gaya"
+// accountEmail = "jeet02@gmail.com"
+// accountpassword = "224414"
+// accountCity = "Gaya"
+
+console.table([accountId, accountEmail, accountpassword, accountCity]);
