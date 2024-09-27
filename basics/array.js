@@ -3,4 +3,4 @@ let total = 0;
 for(let x =0; x < grades.length; x++){
   total = total + grades [x];
 }
-console.log("total/grades.length");
+console.log(total/grades.length);
