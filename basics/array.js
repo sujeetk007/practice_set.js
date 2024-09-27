@@ -3,4 +3,4 @@ let total = 0;
 for(let x =0; x < grades.length; x++){
   total = total + grades [x];
 }
-document.getElementById("output").innerHTML += total/grades.length;
+document.getElementById("total").innerHTML += total/grades.length;
