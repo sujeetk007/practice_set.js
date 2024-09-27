@@ -1,5 +1,6 @@
-let students = ["Prabhat Kumar", "Krishna Singh", "Om Prakash", "Vikash Singh", "Sumit Srivastava", "Sonu Sehgal"];
-
- students= students.replaceAll ("Krishna Singh", "Om Prakash", "Prabhat Kumar", "Sonu Sehgal", "Sumit Srivastava", "Vikash Singh");
-
- document.getElementById("students").innerHTML = students;
+let grades = [78, 67, 95, 87, 85, 75];
+let total = 0;
+for(let x =0; x < grades.length; x++){
+  total = total + grades [x];
+}
+document.getElementById("output").innerHTML += total/grades.length;
